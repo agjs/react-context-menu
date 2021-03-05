@@ -8,7 +8,7 @@ import React, { useState, useEffect, useCallback } from "react";
  * @return {boolean}
  */
 
-export const isReactContextClick = (element) => {
+const isReactContextClick = (element) => {
   if (!element) {
     return false;
   }
@@ -28,8 +28,8 @@ const getClassName = (className) => {
 };
 
 const useContextMenu = (
-  isOpenAfterInteraction = true,
   trigger,
+  isOpenAfterInteraction = true,
   isOpen,
   setIsOpen
 ) => {
