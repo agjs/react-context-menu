@@ -30,15 +30,18 @@ This makes it easy to intergrate your own UI library and show your own UI Compon
 | component              | A component to show when trigger is right clicked                                                                                                                                                                                 | null    |
 | isOpenAfterInteraction | Determines if a menu should remain open after user interacts with it. For instance, maybe you will render a list of checkboxes that user has to interact with, and you don't want menu to close it after each interaction (click) | true    |
 | className              | A custom className in case you want to apply custom styling to the context wrapper                                                                                                                                                | null    |
+| isOpen                 | Self-explanatory                                                                                                                                                                                                                  | false   |
+| setIsOpen              | Self-explanatory                                                                                                                                                                                                                  | -       |
 
 ## Use
 
 ```js
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import ContextMenu from "@agjs/react-right-click-menu";
 import SomeUiComponent from "somewhere";
 
 export const ExampleComponent = () => {
+  const [isMenuShown, setIsMenuShown] = useState(false);
   const ref = useRef();
   return (
     <>
@@ -46,9 +49,11 @@ export const ExampleComponent = () => {
         isOpenAfterInteraction={false}
         trigger={ref}
         component={<SomeUiComponent />}
+        isOpen={isMenuShown}
+        setIsOpen={setIsMenuShown}
       />
       <div className="foo" ref={ref}>
-        Once someone clicks inside of me, I will trigger some content!
+        Once someone right-clicks inside of me, I will trigger some content!
       </div>
     </>
   );
