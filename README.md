@@ -10,7 +10,7 @@ Unlike many similar libraries, react-right-click-menu simply provides a context 
 
 This makes it easy to intergrate your own UI library and show your own UI Components when a context menu is triggered. That being said, react-right-click-menu doesn't carry over any content or styling, nor it installs any additional dependencies.
 
-## [CodeSandbox Demo](#TEST)
+## [CodeSandbox Demo](https://codesandbox.io/s/elegant-tharp-2vhjg?file=/src/App.js)
 
 ## Install
 
