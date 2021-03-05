@@ -12,17 +12,17 @@ This makes it easy to intergrate your own UI library and show your own UI Compon
 
 # [CodeSandbox Demo](#TEST)
 
-# Install
+## Install
 
-## NPM
+#### NPM
 
 > npm install react-context-menu
 
-## YARN
+#### YARN
 
 > yarn add react-context-menu
 
-# Props
+## Props
 
 | Props                  | Description                                                                                                                                                                                                                       | Default |
 | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
@@ -31,7 +31,7 @@ This makes it easy to intergrate your own UI library and show your own UI Compon
 | isOpenAfterInteraction | Determines if a menu should remain open after user interacts with it. For instance, maybe you will render a list of checkboxes that user has to interact with, and you don't want menu to close it after each interaction (click) | true    |
 | className              | A custom className in case you want to apply custom styling to the context wrapper                                                                                                                                                | null    |
 
-# Use
+## Use
 
 ```js
 import React, { useRef } from "react";
@@ -54,9 +54,9 @@ export const ExampleComponent = () => {
 };
 ```
 
-# Transitions
+## Transitions
 
-## Example using [react-motion](https://github.com/chenglou/react-motion)
+#### Example using [react-motion](https://github.com/chenglou/react-motion)
 
 To keep the minimal footprint, react-context-menu doesn't apply any transitions to the component triggered. This decision was made in order to keep minimal amount of external dependencies and to allow a consumer to add them.
 
