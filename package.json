@@ -2,9 +2,9 @@
   "name": "@agjs/react-right-click-menu",
   "author": "Aleksandar Grbic <hi@aleksandar.xyz>",
   "homepage": "https://github.com/agjs/react-context-menu#readme",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "React context menu.",
-  "main": "./src/ReactContextMenu.js",
+  "main": "./lib/ReactContextMenu.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/agjs/react-context-menu.git"

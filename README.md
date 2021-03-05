@@ -35,7 +35,7 @@ This makes it easy to intergrate your own UI library and show your own UI Compon
 
 ```js
 import React, { useRef } from "react";
-import ContextMenu from "react-right-click-menu";
+import ContextMenu from "@agjs/react-right-click-menu";
 import SomeUiComponent from "somewhere";
 
 export const ExampleComponent = () => {
@@ -65,6 +65,7 @@ In the showcase below, we can see how we used a [render-prop](https://reactpatte
 
 ```js
 import React, { useRef, useState } from "react";
+import ContextMenu from "@agjs/react-right-click-menu";
 import { Motion, spring } from "react-motion";
 import ContextMenu from "./index";
 import Foo from "somewhere";
