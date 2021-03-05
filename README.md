@@ -1,6 +1,8 @@
 # react-context-menu
 
-<img style="width: 100px; display: block; margin: 25px auto;" src="./assets/images/react-context-menu.svg">
+<p align="center">
+  <img width="150" height="150" src="./assets/images/react-context-menu.svg">
+</p>
 
 Minimalistic provider built around native [Contextmenu Event](https://developer.mozilla.org/en-US/docs/Web/API/Element/contextmenu_event).
 
