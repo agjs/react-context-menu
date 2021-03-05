@@ -16,11 +16,11 @@ This makes it easy to intergrate your own UI library and show your own UI Compon
 
 #### NPM
 
-> npm install react-right-click-menu
+> npm i @agjs/react-right-click-menu
 
 #### YARN
 
-> yarn add react-right-click-menu
+> yarn add @agjs/react-right-click-menu
 
 ## Props
 
