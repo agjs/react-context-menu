@@ -1,7 +1,7 @@
 # react-right-click-menu
 
 <p align="center">
-  <img width="150" height="150" src="./assets/images/react-context-menu.svg">
+  <img width="150" height="150" src="https://raw.githubusercontent.com/agjs/react-context-menu/b773efb514232ac35665771e3f73f102c017aad8/assets/images/react-context-menu.svg">
 </p>
 
 Minimalistic provider built around native [Contextmenu Event](https://developer.mozilla.org/en-US/docs/Web/API/Element/contextmenu_event).
